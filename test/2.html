@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>命名空间</title>
+</head>
+<body>
+	
+</body>
+
+<script type="text/javascript" src="js/myApp.js?36"></script>
+<script type="text/javascript" src="js/type_lei.js?36"></script>
+<script type="text/javascript" src="js/date_lei.js?36"></script>
+<script>
+
+var dateTimeObj = MYAPP.namespace('MYAPP.dateTimeObj');
+var dd = new Date();
+var str1 = dateTimeObj.dateFormat(dd, "dd w");
+
+var aa = new RegExp('ab+c', 'i');
+console.log(aa);
+
+
+
+</script>
+</html>
